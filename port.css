@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Edu+AU+VIC+WA+NT+Hand:wght@600&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Edu+AU+VIC+WA+NT+Hand:wght@600&family=Merienda:wght@300..900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Edu+AU+VIC+WA+NT+Hand:wght@600&family=Merienda:wght@300..900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Edu+AU+VIC+WA+NT+Hand:wght@600&family=Merienda:wght@300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+:root{
+    --padding-inline-section: 30px;
+}
+.nav li{
+    list-style: none;
+    justify-content: space-between;
+    
+}
+.header{
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100vw;
+    background-color: rgb(50, 65, 79);
+    justify-content: space-between;
+    padding: var(--padding-inline-section);
+    position: fixed;
+}
+.port{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 50px;
+    text-shadow: 0px 0px 4px whitesmoke;
+    color: rgb(0, 0, 0);
+
+}
+.nav{
+    justify-content: end;
+    gap: 40px;
+    text-decoration: none;
+}
+.hover-link{
+    color: aliceblue;
+    text-decoration: none;
+}
+.hover-link:hover{
+    color: blue;
+    transition: 0.3s ease-out;
+}
+
+.me2 img{
+    height: 500px;
+    width: auto;
+    
+}
+.me img{
+    height: 500px;
+    width: auto;
+    border-radius: 100%;
+}
+
+
+.container{
+    background-image: url(./asset/design2.png);
+    background-position: bottom;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 150px;
+    background-color: #ffffff;
+    gap: 30px;
+    
+}
+.content{
+    color: rgb(5, 5, 5);
+    margin-left: 80px;
+    font-family: cursive;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    
+    
+}
+.content h1{
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: red;
+  margin-bottom: 30px;
+}
+.aboutmecontainer{
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 3%;
+    margin-top: 30px;
+    
+
+
+}
+.content h1{
+    text-shadow: 0px 1px 9px rgb(61, 5, 245);
+}
+.faltu{
+    font-family: "Satisfy", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  
+}
+.me img{
+    margin-left: 150px;
+}
+.aboutme{
+    text-align: center;
+    width: 500px;
+    margin-right:150px;
+    
+}
+.aboutme h1{
+   margin-bottom: 50px;
+   font-size: 80px;
+   
+   font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.web{
+    color: rgb(246, 243, 243);
+    text-shadow: 0px 0px 5px rgb(10, 10, 10);
+}
+.aboutme h3{
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.educon-1{
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-left: 150px;
+}
+.educon-1 h1{
+   
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 80px;
+    font-family: "Merienda", cursive;
+    font-weight: 700;
+    
+}
+.educon-1 h2{
+    font-family: "Roboto", sans-serif;
+}
+.educon-1 h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.educon-2 img{
+    height: 500px;
+    width: auto;
+    margin-right:150px;
+    margin-top: 50px;
+}
+.educontainer{
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 3%;
+    margin-top: 10px;
+    background-image: linear-gradient(to bottom, white,rgb(133, 123, 123));
+}
+footer{
+    height: 40vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(82, 82, 82);
+}
+.contactlogo h1{
+    margin-left: 300px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    font-style: normal;
+}
+.contacting img{
+    height: 30px;
+}
+.contacting{
+    margin-right: 250px;
+    
+    
+}
+.contacting ul{
+    list-style: none;
+    
+   
+}
+
+
+.contacting a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: normal;
+}
+.contacting a:hover{
+    color: blue;
+
+}
+.s{
+    margin-left: 20px;
+    align-items: end;
+}
+
